@@ -1,5 +1,5 @@
 {% set name = "cw2" %}
-{% set version = "2.5" %}
+{% set version = "2.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cw2-{{ version }}.tar.gz
-  sha256: 9db44486c7149b56acd15a0a6d49287a220bcfbe9aa9330b4e286bd643212166
+  sha256: c57bb8005f8a6aefab6dba4d38146c72c5c97a169c044b593d7d407053128aa4
 
 build:
   noarch: python
